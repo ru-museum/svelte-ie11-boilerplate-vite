@@ -69,9 +69,11 @@
    <li><h3>SCSS：</h3>
    
    <ul>
-     <li><strong>sass</strong> のインストールのみで使用可となりました。
+     <li><strong>sass</strong> のインストールのみで使用可となっています。
    </ul>
 
+   <h4>動作テスト</h4>	   
+	   
 <pre>    
    <div>
 &lt;style <strong>lang="scss"</strong>&gt;
@@ -107,12 +109,11 @@
 <li>
    <h3>IE11 対応</h3>
    <ul>
-     <li><strong>@vitejs/plugin-legacy</strong> のインストール。<br>
-     # npm install -D <strong>@vitejs/plugin-legacy</strong><br>
-     # vi <strong>vite.config.js</strong></li>
+     <li><strong>@vitejs/plugin-legacy</strong> をインストールしています。</li>
    </ul>
 
-
+   <h4>./vite.config.js</h4>
+	
 <pre>
 
 import &#123; defineConfig } from 'vite'
@@ -162,6 +163,9 @@ export default defineConfig(&#123;
          build 時に "/assets/" が "<strong>.</strong>/assets/" となる様に指定します。
       </li>
    </ul>
+
+   <h4>./vite.config.js</h4>
+	
 <pre>
 export default defineConfig(&#123;
    ....
