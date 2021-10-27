@@ -1,67 +1,17 @@
 <script lang="ts">
-  import logo from './assets/svelte.png'
-  import vite from './assets/vite.svg'
-  import Counter from './lib/Counter.svelte'
+	import logo from './assets/svelte.png'
+	import vite from './assets/vite.svg'
+	import Counter from './lib/Counter.svelte'
 
-  import {fetch as fetchPolyfill} from 'whatwg-fetch'; // IE11対応fetch
-  
-  export let name: string;
-  
+	export let name: string;
 	const buttons: string = [
-     { name: "foo", color: "red"  },
-     { name: "bar", color: "blue" },
-     { name: "baz", color: "green"}
+	     { name: "foo", color: "red"  },
+	     { name: "bar", color: "blue" },
+	     { name: "baz", color: "green"}
 	];
-
-
-  // import the entire object
-  // import json from './lib/sample.json'
-  // import a root field as named exports - helps with treeshaking!
-  // import { field } from './lib/sample.json'
-
- 
-  
-  let promise = getRandomNumber();
-
-	async function getRandomNumber() {
-
-		// const res = await fetch(`tutorial/random-number`);
-		const res = await fetch(`./lib/sample.json`);
-		// const res = await fetch(`./data/sample.json`);
-		// const res = await fetchPolyfill(`./lib/sample.text`);
-
-		  // alert(res);
-
-		const text = await res.text();
-		// const text = await res.json();
-
-		  alert(text);
-
-/*
-
-		if (res.ok) {
-		
-		  alert(text);
-		
-			return text;
-		} else {
-			throw new Error(text);
-		}
-		*/
-		
-		
-	}
-
-	function handleClick() {
-		promise = getRandomNumber();
-	}
-  
-  
-  
 </script>
 
 <div class="container">
-
 
 <div class="main">
 
@@ -219,10 +169,8 @@ export default defineConfig(&#123;
 
 </ol>
 
-<a href="https://ja.vitejs.dev/" target="_blank">Vitejs</a>
-
   <p>
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
+    Visit <a href="https://svelte.dev">svelte.dev</a> and <a href="https://ja.vitejs.dev/" target="_blank">Vitejs</a> to learn how to build Svelte
     apps.
   </p>
 
@@ -235,7 +183,6 @@ export default defineConfig(&#123;
 
 <style lang="scss">
 
-
   :root {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -244,12 +191,11 @@ export default defineConfig(&#123;
 	.left {
 		text-align: left;
 	}
-	
+
 	.main{
 		text-align: center;
 	}
 
-  
 	.container {
 		padding-top: 4em;
 		width: 600px;
@@ -261,7 +207,7 @@ export default defineConfig(&#123;
 		height: 40px;
 	}
 
-	
+
 	h1 {
 		color: #ff3e00;
 		text-transform: uppercase;
@@ -269,43 +215,42 @@ export default defineConfig(&#123;
 		font-weight: 100;
 	}
 
+	//変数の宣言 
+	$bgcolor: #e1f5fe;  
+	$width: 400px;
+	$color: green;
 
-   //変数の宣言 
-   $bgcolor: #e1f5fe;  
-   $width: 400px;
-   $color: green;
-   
-   pre {
-      background-color: #f4f9ff;
-      padding: 12px;
-   }
+	pre {
+		background-color: #f4f9ff;
+		padding: 12px;
+	}
 
-   .sample {
-      background-color: $bgcolor;
-      width:$width;
-      margin: 0 auto;
-      padding: 14px 24px;
-            
-      h3 {
-         margin: 20px;
-         font-size: 24px;
-      }
-      .content p {
-         color: $color;
-      }
-   }
+	.sample {
+		background-color: $bgcolor;
+		width:$width;
+		margin: 0 auto;
+		padding: 14px 24px;
 
-   strong {
-      color: $color;
-   }
+		h3 {
+			 margin: 20px;
+			 font-size: 24px;
+		}
+		.content p {
+			 color: $color;
+		}
+	}
 
-   .btn{
-      margin-right: 20px;
-      color:#fff;
-      padding:16px;
-      border:0;
-      border-radius:12px;
-   }
+	strong {
+		color: $color;
+	}
+
+	.btn{
+		margin-right: 20px;
+		color:#fff;
+		padding:16px;
+		border:0;
+		border-radius:12px;
+	}
 
 
 	@media (min-width: 640px) {
