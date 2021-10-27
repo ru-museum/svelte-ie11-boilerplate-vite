@@ -16,7 +16,7 @@ svelte-boilerplate for IE11 with Vite
 - 開発環境：Linux(Debian), Node.js 17.0.1。  
 
 # 構築手順
-1. cron を作成し依存ライブラリーのインストールします。
+1. cron を作成し依存ライブラリーのインストールをします。
 
 - この boilerplate に基づき新規の project を構築するには [degit](https://github.com/Rich-Harris/degit) を使用します。
 
@@ -41,7 +41,7 @@ npx degit ru-museum/svelte-ie11-boilerplate-vite#main svelte-app
 
 - 構築するには [Node.js](https://nodejs.org/) のインストールが必要です。  
 　  
-2. [Rollup](https://rollupjs.org/) をスタートします。
+2. [Vite](https://github.com/vitejs/vite) をスタートします。
 
 ```
 npm run dev
