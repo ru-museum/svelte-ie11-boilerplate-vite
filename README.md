@@ -2,7 +2,8 @@
 svelte-boilerplate for IE11 with Vite
 
 # 特徴
-- この Svelte apps は [Vite](https://github.com/vitejs/vite) による template に基づいています。
+- この Svelte apps は [Vite](https://github.com/vitejs/vite) による template に基づいています。  
+以下の手順で作成されています。
 ```
 　# npm init vite@latest my-project --template svelte-ts
 ```
