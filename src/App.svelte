@@ -198,7 +198,7 @@ export default defineConfig(&#123;
 
 	.container {
 		padding-top: 4em;
-		width: 600px;
+		width: 700px;
 		margin: 0 auto;
 	}
 
