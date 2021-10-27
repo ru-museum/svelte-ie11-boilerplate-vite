@@ -18,7 +18,7 @@
   <img src={logo} alt="Svelte Logo" />
   <img src={vite} alt="Vite Logo" />
 
-  <h1>Hello {name}</h1>
+  <h1>Hello {name}!</h1>
   <h1>Svelte - Vite<br> Boilerplate</h1>
   <h3>Typescript - SCSS - IE11</h3>
 
@@ -156,7 +156,7 @@ export default defineConfig(&#123;
 <li>
    <h3>エラー対応</h3>
    <ul>
-      <li>./dist/index.html を開いても表示されない場合があり、ディレクトリ指定を「./」とする必要があります。<br>
+      <li>./dist/index.html を開いても表示されない場合、ディレクトリ指定を「./」とする必要があります。<br>
       ※ ブラウザ依存であるかは未確定（環境：Firefox - Debian）。
       </li>
       <li>
