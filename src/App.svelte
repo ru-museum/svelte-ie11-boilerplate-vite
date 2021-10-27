@@ -32,6 +32,10 @@
 <ol class="left">
 
  <li><h3>Typescript：</h3>
+	<ul>
+		<li><strong>Typescript</strong> はそのまま使えます。
+	</ul>	 
+	 
    <h4>動作テスト</h4>
 
 <pre>
@@ -65,8 +69,7 @@
    <li><h3>SCSS：</h3>
    
    <ul>
-     <li><strong>sass</strong> のインストールのみで可。<br>
-     # npm install -D <strong>sass</strong></li>
+     <li><strong>sass</strong> のインストールのみで使用可となりました。
    </ul>
 
 <pre>    
