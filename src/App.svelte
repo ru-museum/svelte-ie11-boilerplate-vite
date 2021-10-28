@@ -120,7 +120,7 @@ import &#123; defineConfig &#125; from 'vite';
 import &#123; svelte &#125; from '@sveltejs/vite-plugin-svelte';
 
 // IE11 対応
-<strong>import legacy from '@vitejs/plugin-legacy'</strong>
+<strong>import legacy from '@vitejs/plugin-legacy';</strong>
 
 export default defineConfig(&#123;
 
