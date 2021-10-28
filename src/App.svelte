@@ -1,7 +1,7 @@
 <script lang="ts">
-	import logo from './assets/svelte.png'
-	import vite from './assets/vite.svg'
-	import Counter from './lib/Counter.svelte'
+	import logo from './assets/svelte.png';
+	import vite from './assets/vite.svg';
+	import Counter from './lib/Counter.svelte';
 
 	export let name: string;
 	const buttons: string = [
