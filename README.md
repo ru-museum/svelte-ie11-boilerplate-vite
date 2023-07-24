@@ -2,6 +2,8 @@
 svelte-boilerplate for IE11 with Vite
 
 # 特徴
+- **svelte 4** へのバージョンアップがされています（2023-07-25）。  
+
 - この Svelte apps は [Vite](https://github.com/vitejs/vite) による template に基づいています。  
 以下の手順で作成されています。
 ```
