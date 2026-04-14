@@ -1,3 +1,5 @@
+/** @type {import("@sveltejs/vite-plugin-svelte").SvelteConfig} */
+
 import sveltePreprocess from 'svelte-preprocess'
 
 export default {
@@ -5,3 +7,4 @@ export default {
   // for more information about preprocessors
   preprocess: sveltePreprocess()
 }
+
