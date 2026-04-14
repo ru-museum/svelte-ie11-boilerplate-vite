@@ -220,6 +220,7 @@ npm i -D sass
       }
       padding:26px 20px 26px 20px;
    }
+   
 
 	.btn{
 		margin-right: 20px;
@@ -233,10 +234,10 @@ npm i -D sass
   .logo {
     height: 18px;
   }
-
   .button-icon {
     height: 18px;
     width: 18px;
   }
 
 </style>
+
